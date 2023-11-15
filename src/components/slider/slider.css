@@ -10,16 +10,19 @@
 .arrow-left {
     width: 50px;
     height: 50px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
     background-color: rgba(0, 0, 110, 0.5);
+    color: var(--main-color);
     border-radius: 50%;
-    cursor: pointer;
-    font-size: 30px;
-    z-index: 2;
     position: absolute;
     top: 0;
     bottom: 0;
     margin: auto;
-    color: var(--main-color);
+    cursor: pointer;
+    z-index: 2;
+    font-size: 30px;
 }
 
 .arrow-right {
@@ -31,9 +34,9 @@
 }
 
 .slider-wrapper {
-    height: 100px;
+    height: 100%;
     display: flex;
-    transition: all 1s ease;
+    transition: all .3s ease;
 }
 
 
@@ -80,7 +83,7 @@
 }
 
 .slide-info-desc {
-    margin-right: 21px 0;
+    margin-right: 21px;
     font-size: 24px;
     font-weight: 500;
     letter-spacing: 1 px;
