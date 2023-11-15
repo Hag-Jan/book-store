@@ -20,4 +20,5 @@ const h2Styles = {
     paddingBottom: "5px",
 };
 
+
 export default HeadingTitle;
